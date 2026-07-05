@@ -99,7 +99,7 @@ Getters y Setters
 
 toString()
 
-Esta clase sirve como base para todas las categorías de servicios turísticos.<br><br>
+Esta clase sirve como base para todas las categorías de servicios turísticos.<br><br><br><br>
 
 
 
@@ -119,7 +119,7 @@ Atributo adicional
 
 numeroDeParadas
 
-Sobrescribe el método mostrarInformacion() para mostrar la información general del servicio junto con la cantidad de paradas gastronómicas.<br><br>
+Sobrescribe el método mostrarInformacion() para mostrar la información general del servicio junto con la cantidad de paradas gastronómicas.<br><br><br><br>
 
 
 
@@ -138,7 +138,7 @@ Atributo adicional
 
 tipoEmbarcacion
 
-Sobrescribe mostrarInformacion() incorporando el tipo de embarcación utilizada durante el recorrido.<br><br>
+Sobrescribe mostrarInformacion() incorporando el tipo de embarcación utilizada durante el recorrido.<br><br><br><br>
 
 
 
@@ -158,7 +158,7 @@ Atributo adicional
 
 lugarHistorico
 
-Especializa la información del servicio indicando el lugar histórico que forma parte de la excursión.<br><br>
+Especializa la información del servicio indicando el lugar histórico que forma parte de la excursión.<br><br><br><br>
 
 
 
@@ -183,7 +183,7 @@ Agregar servicios turísticos de distintas categorías.
 
 Retornar la colección para ser utilizada desde la clase principal.
 
-La colección incluye ejemplos inspirados en atractivos turísticos de la Región de Los Lagos, como rutas gastronómicas, paseos lacustres y excursiones culturales.<br><br>
+La colección incluye ejemplos inspirados en atractivos turísticos de la Región de Los Lagos, como rutas gastronómicas, paseos lacustres y excursiones culturales.<br><br><br><br>
 
 
 
@@ -210,7 +210,7 @@ Recorrer la lista utilizando un ciclo for-each.
 
 Mostrar la información de cada objeto mediante el método mostrarInformacion().
 
-Gracias al polimorfismo, cada objeto ejecuta automáticamente la versión correspondiente de dicho método según su tipo.<br><br>
+Gracias al polimorfismo, cada objeto ejecuta automáticamente la versión correspondiente de dicho método según su tipo.<br><br><br><br>
 
 
 
@@ -243,7 +243,7 @@ Gracias al polimorfismo, cada objeto ejecuta automáticamente la versión corres
 
 6.ui/Main.java
 
-7.Observar en la consola la información correspondiente a todos los servicios turísticos creados.<br><br>
+7.Observar en la consola la información correspondiente a todos los servicios turísticos creados.<br><br><br><br>
 
 
 
