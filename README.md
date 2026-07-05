@@ -13,7 +13,7 @@ Carrera: Analista Programador
 
 Asignatura: Desarrollo Orientado a Objetos I
 
-Caso: Llanquihue Tour
+Caso: Llanquihue Tour<br><br><br><br>
 
 
 
