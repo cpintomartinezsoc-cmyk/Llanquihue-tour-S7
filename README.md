@@ -1,4 +1,6 @@
 <img width="488" height="157" alt="image" src="https://github.com/user-attachments/assets/f80ca68b-059b-4ed7-8500-7e1562cc24f6" />
+
+
 🧠 Actividad Formativa Semana 6 – Creando Jerarquías de Clases con Herencia Simple
 👤 
 
@@ -12,6 +14,10 @@ Caso: Llanquihue Tour
 
 
 
+
+
+
+
 📘 Descripción general del sistema
 
 Este proyecto corresponde a la actividad formativa de la Semana 7 de la asignatura Desarrollo Orientado a Objetos I.
@@ -19,6 +25,8 @@ Este proyecto corresponde a la actividad formativa de la Semana 7 de la asignatu
 La aplicación continúa el desarrollo del sistema de gestión de la agencia Llanquihue Tour, incorporando los conceptos de polimorfismo, herencia simple y colecciones genéricas mediante una jerarquía de clases que representa distintos servicios turísticos.
 
 El sistema permite almacenar diferentes tipos de servicios turísticos dentro de una misma colección, recorrerlos dinámicamente y mostrar su información utilizando referencias de la superclase, demostrando el comportamiento polimórfico de la Programación Orientada a Objetos.
+
+
 
 
 
@@ -56,6 +64,8 @@ src/
 📂 Descripción de las clases
 
 
+
+
 ServicioTuristico
 
 Clase base del sistema que representa un servicio turístico.
@@ -82,6 +92,9 @@ Esta clase sirve como base para todas las categorías de servicios turísticos.
 
 
 
+
+
+
 RutaGastronomica
 
 Hereda de ServicioTuristico.
@@ -91,6 +104,8 @@ Atributo adicional
 numeroDeParadas
 
 Sobrescribe el método mostrarInformacion() para mostrar la información general del servicio junto con la cantidad de paradas gastronómicas.
+
+
 
 
 
@@ -108,6 +123,9 @@ Sobrescribe mostrarInformacion() incorporando el tipo de embarcación utilizada 
 
 
 
+
+
+
 ExcursionCultural
 
 Hereda de ServicioTuristico.
@@ -117,6 +135,10 @@ Atributo adicional
 lugarHistorico
 
 Especializa la información del servicio indicando el lugar histórico que forma parte de la excursión.
+
+
+
+
 
 
 
@@ -134,6 +156,9 @@ Agregar servicios turísticos de distintas categorías.
 Retornar la colección para ser utilizada desde la clase principal.
 
 La colección incluye ejemplos inspirados en atractivos turísticos de la Región de Los Lagos, como rutas gastronómicas, paseos lacustres y excursiones culturales.
+
+
+
 
 
 
@@ -158,7 +183,12 @@ Gracias al polimorfismo, cada objeto ejecuta automáticamente la versión corres
 
 
 
+
+
+
 ▶️ Instrucciones para ejecutar el proyecto
+
+
 
 
 1.Clonar el repositorio desde GitHub.
@@ -174,6 +204,9 @@ Gracias al polimorfismo, cada objeto ejecuta automáticamente la versión corres
 6.ui/Main.java
 
 7.Observar en la consola la información correspondiente a todos los servicios turísticos creados.
+
+
+
 
 
 
