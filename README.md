@@ -1,6 +1,9 @@
 <img width="488" height="157" alt="image" src="https://github.com/user-attachments/assets/f80ca68b-059b-4ed7-8500-7e1562cc24f6" />
 
 
+
+
+
 🧠 Actividad Formativa Semana 6 – Creando Jerarquías de Clases con Herencia Simple
 👤 
 
@@ -25,6 +28,8 @@ Este proyecto corresponde a la actividad formativa de la Semana 7 de la asignatu
 La aplicación continúa el desarrollo del sistema de gestión de la agencia Llanquihue Tour, incorporando los conceptos de polimorfismo, herencia simple y colecciones genéricas mediante una jerarquía de clases que representa distintos servicios turísticos.
 
 El sistema permite almacenar diferentes tipos de servicios turísticos dentro de una misma colección, recorrerlos dinámicamente y mostrar su información utilizando referencias de la superclase, demostrando el comportamiento polimórfico de la Programación Orientada a Objetos.
+
+
 
 
 
@@ -61,7 +66,11 @@ src/
 
 
 
+
+
 📂 Descripción de las clases
+
+
 
 
 
@@ -69,7 +78,6 @@ src/
 ServicioTuristico
 
 Clase base del sistema que representa un servicio turístico.
-
 
 Atributos
 
@@ -95,6 +103,8 @@ Esta clase sirve como base para todas las categorías de servicios turísticos.
 
 
 
+
+
 RutaGastronomica
 
 Hereda de ServicioTuristico.
@@ -110,6 +120,8 @@ Sobrescribe el método mostrarInformacion() para mostrar la información general
 
 
 
+
+
 PaseoLacustre
 
 Hereda de ServicioTuristico.
@@ -119,6 +131,8 @@ Atributo adicional
 tipoEmbarcacion
 
 Sobrescribe mostrarInformacion() incorporando el tipo de embarcación utilizada durante el recorrido.
+
+
 
 
 
@@ -143,6 +157,8 @@ Especializa la información del servicio indicando el lugar histórico que forma
 
 
 
+
+
 GestorServicios
 
 Clase encargada de administrar los servicios turísticos.
@@ -156,6 +172,9 @@ Agregar servicios turísticos de distintas categorías.
 Retornar la colección para ser utilizada desde la clase principal.
 
 La colección incluye ejemplos inspirados en atractivos turísticos de la Región de Los Lagos, como rutas gastronómicas, paseos lacustres y excursiones culturales.
+
+
+
 
 
 
@@ -186,6 +205,9 @@ Gracias al polimorfismo, cada objeto ejecuta automáticamente la versión corres
 
 
 
+
+
+
 ▶️ Instrucciones para ejecutar el proyecto
 
 
@@ -204,6 +226,8 @@ Gracias al polimorfismo, cada objeto ejecuta automáticamente la versión corres
 6.ui/Main.java
 
 7.Observar en la consola la información correspondiente a todos los servicios turísticos creados.
+
+
 
 
 
